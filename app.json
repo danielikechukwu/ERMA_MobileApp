@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "EMRA",
+    "slug": "emra",
+    "description": "ERMA is an App used in Softcode International Ltd for any transaction and personal details",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Icon.png",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ike_daniel.emra"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
