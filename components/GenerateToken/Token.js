@@ -41,8 +41,6 @@ export const Token = ({navigation: {goBack}}) => {
     
       <View style={styles.FirstTextNav}>
     
-            {/* <Screen /> */}
-            {/* <HamburgerMenu menu__name={clicked}/> */}
             <AntDesign name="arrowleft" size={24} color="#ffffff" onPress={() => goBack()}/>
     
             <Text style={{ fontSize: 24, color: '#ffffff' }}>ERM Application</Text>
